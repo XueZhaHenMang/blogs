@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="images/mylogo.png"><title>搭建博客 | 学渣很忙的博客</title><meta name="description" content="学渣很忙的博客">
+    <link rel="preload" href="/blogs/assets/style-CS2eKmjL.css" as="style"><link rel="stylesheet" href="/blogs/assets/style-CS2eKmjL.css">
+    <link rel="modulepreload" href="/blogs/assets/app-D0xB1zqT.js"><link rel="modulepreload" href="/blogs/assets/index.html-Ca89A8IE.js">
+    <link rel="prefetch" href="/blogs/assets/index.html-CrHvjyTe.js" as="script"><link rel="prefetch" href="/blogs/assets/使用VuePress搭建博客.html-TKF8unek.js" as="script"><link rel="prefetch" href="/blogs/assets/使用VuePress默认主题.html-DWAzIz8P.js" as="script"><link rel="prefetch" href="/blogs/assets/将博客部署到GitHub Pages.html-CAlLovHO.js" as="script"><link rel="prefetch" href="/blogs/assets/404.html-DPoljrga.js" as="script"><link rel="prefetch" href="/blogs/assets/setupDevtools-7MC2TMWH-BIDP2QwF.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-navbar no-sidebar external-link-icon" vp-container><!--[--><!----><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content" vp-content><!--[--><!--]--><div><p><br><br></p><ul><li><p><a class="route-link" href="/blogs/">回到首页</a></p></li><li><p><a class="route-link" href="/blogs/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/%E4%BD%BF%E7%94%A8VuePress%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2.html">使用VuePress搭建博客</a></p></li><li><p><a class="route-link" href="/blogs/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/%E4%BD%BF%E7%94%A8VuePress%E9%BB%98%E8%AE%A4%E4%B8%BB%E9%A2%98.html">使用VuePress默认主题</a></p></li><li><p><a class="route-link" href="/blogs/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0GitHub%20Pages.html">将博客部署到GitHub Pages</a></p></li></ul></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">上次更新时间: </span><!----></div><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/blogs/assets/app-D0xB1zqT.js" defer></script>
+  </body>
+</html>

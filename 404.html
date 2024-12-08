@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="images/mylogo.png"><title>学渣很忙的博客</title><meta name="description" content="学渣很忙的博客">
+    <link rel="preload" href="/blogs/assets/style-CS2eKmjL.css" as="style"><link rel="stylesheet" href="/blogs/assets/style-CS2eKmjL.css">
+    <link rel="modulepreload" href="/blogs/assets/app-D0xB1zqT.js"><link rel="modulepreload" href="/blogs/assets/404.html-DPoljrga.js">
+    <link rel="prefetch" href="/blogs/assets/index.html-CrHvjyTe.js" as="script"><link rel="prefetch" href="/blogs/assets/index.html-Ca89A8IE.js" as="script"><link rel="prefetch" href="/blogs/assets/使用VuePress搭建博客.html-TKF8unek.js" as="script"><link rel="prefetch" href="/blogs/assets/使用VuePress默认主题.html-DWAzIz8P.js" as="script"><link rel="prefetch" href="/blogs/assets/将博客部署到GitHub Pages.html-CAlLovHO.js" as="script"><link rel="prefetch" href="/blogs/assets/setupDevtools-7MC2TMWH-BIDP2QwF.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-2b46ff23><main class="page" data-v-2b46ff23><div class="theme-default-content" vp-content data-v-2b46ff23><h1 data-v-2b46ff23>404</h1><blockquote data-v-2b46ff23>There&#39;s nothing here.</blockquote><a class="route-link" href="/blogs/" data-v-2b46ff23>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/blogs/assets/app-D0xB1zqT.js" defer></script>
+  </body>
+</html>
